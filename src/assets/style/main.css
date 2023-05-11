@@ -3,3 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body,
+input,
+textarea,
+button {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+input,
+textarea,
+button {
+    line-height: 19px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-public {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 12px;
+    width: 141px;
+    height: 48px;
+    background-image: linear-gradient(90deg, #80e4fe 1.32%,#80e4fe 2.32%, #60a9fc 40%, #3b87de 0%);
+    background-size: 300%;
+    background-position: left;
+
+    transition: 200ms background-position ease-in-out;
+    border-radius: 15px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+}
+
+.btn-public:hover {
+    background-position: right;
+}

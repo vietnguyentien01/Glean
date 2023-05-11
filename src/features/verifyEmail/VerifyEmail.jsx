@@ -1,4 +1,4 @@
-import React from 'react'
+import "./verifyEmail.css";
 
 export default function VerifyEmail() {
   return (

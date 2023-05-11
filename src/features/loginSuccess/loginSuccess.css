@@ -1,0 +1,104 @@
+.login-success_container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.login-success_content {
+    padding: 6.2% 0;
+    width: 50%;
+}
+
+.login-success_logo img {
+    width: 20%;
+}
+
+.login-success_title {
+    margin-top: 67px;
+}
+
+.login-success_title h3{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+
+.login-success_title p {
+    width: 90%;
+    margin: auto;
+    font-size: 25px;
+    margin-top: 37px;
+    line-height: 38px;
+    margin-bottom: 20px;
+
+}
+
+.login-success_title img {
+    animation: loading 3s linear infinite;
+}
+
+.login-success_modal {
+    position: absolute;
+    bottom: 17px;
+    right: 22px;
+    text-align: center;
+}
+
+.login-success_sub_modal {
+    position: relative;
+    padding: 14px 72px;
+    border: 1px solid #A3A6AC;
+    color: #615D5D;
+;
+}
+
+.login-success_sub_modal img {
+    position: absolute;
+    top: 5.5%;
+    right: 2%;
+    cursor: pointer;
+}
+
+.login-success_modal_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-success_modal_title {
+    margin-bottom: 27px;
+}
+
+.login-success_modal_save {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-success_modal_save button:nth-child(1) {
+    margin-right: 51px;
+}
+
+.login-success_modal_save button {
+    border: 1px solid #A7A7A7;
+    padding: 7px 24px;
+    border-radius: 5px;
+    background: #ffffff;
+    color: #615D5D;
+    transition: all 0.3s linear;
+}
+
+.login-success_modal_save button:hover {
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(359deg);
+    }
+}

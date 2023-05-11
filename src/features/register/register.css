@@ -1,0 +1,97 @@
+.register-name {
+    margin-bottom: 32px;
+}
+
+.register-accept {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.register-accept p {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.register-accept input[type="checkbox"] {
+    position: relative;
+    visibility: hidden;
+    width: 10% !important;
+    cursor: pointer;
+}
+
+.register-accept input[type="checkbox"]::before {
+    content: "";
+    position: absolute;
+    visibility: visible;
+    top: 0;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #1c1b1f;
+    border-radius: 3px;
+}
+
+.register-accept input[type="checkbox"]:checked::before {
+    content: "\2714";
+    text-align: center;
+}
+
+.register-accept_highlight {
+    color: #1877f2;
+    cursor: pointer;
+}
+
+.register-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(83, 88, 97, 0.7);
+}
+
+.register-layer_back {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.register-layer_content {
+    display: flex;
+    justify-content: center;
+}
+
+.register-layer_modal {
+    width: 50%;
+    margin: 110px 0;
+}
+
+.register-layer_modal_content {
+    position: relative;
+    padding: 76px 129px;
+    background: #ffffff;
+    border-radius: 15px;
+}
+
+.register-close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 10%;
+}
+
+.register-close img, .register-layer_back img {
+    cursor: pointer;
+}
+
+.register-logo img{
+    margin-bottom: 68px;
+    width: 30%;
+}
+
+.register-logo p{
+    font-size: 18px;
+}

@@ -1,0 +1,128 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-sub-container {
+    width: 65%;
+    margin-top: 10px;
+}
+
+.login-sub-content {
+    padding: 46px 205px;
+    border: 1px solid #A3A6AC;
+}
+
+.login-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-logo img {
+    width: 11%;
+    margin-bottom: 44px;
+}
+
+.login-logo h3 {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 400;
+}
+
+.login-input_field {
+    margin: 62px 0;
+}
+
+.login-input_field input {
+    width: 80%;
+    padding: 15px 17px;
+}
+
+.login-email {
+    width: 100%;
+}
+
+.login-password {
+    position: relative;
+    margin: 30px 0 19px 0;
+}
+
+.icon-visibility,
+.icon-invisibility {
+    position: absolute;
+    top: 0;
+    right: 12%;
+    width: 24px;
+    height: 100%;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.icon-visibility {
+    background: url("../../assets/img/icon/visibility.png") no-repeat center center;
+}
+
+.icon-invisibility {
+    background: url("../../assets/img/icon/visibility_off.png") no-repeat center center;
+}
+
+.login-desc {
+    margin: auto;
+    width: 60%;
+    margin-bottom: 9px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.login-forgot_password {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+}
+
+.login-forgot_password_content {
+    color: #ED4D4D;
+}
+
+.login-btn {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+.login-btn_register {
+    line-height: 19px;
+    color: #5892EB;
+    transition: all 0.3s linear;
+}
+
+.login-btn_register:hover {
+    color: #000000;
+}
+
+.login-language {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.login-language select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: "";
+    border: none;
+    width: 8%;
+}
+
+.login-language select:focus {
+    outline: none;
+}
+
+.login-language option {
+    text-align: center;
+}
