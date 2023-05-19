@@ -9,8 +9,6 @@ import { Link } from "react-router-dom";
 export default function ForgotPasswordEmail() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [isShow, setIsShow] = useState(false);
-  const [isVisibility, setIsVisibility] = useState(false);
 
   const sighIn = async () => {
     try {

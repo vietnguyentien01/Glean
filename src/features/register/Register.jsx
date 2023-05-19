@@ -5,7 +5,7 @@ import { createUserWithEmailAndPassword } from "firebase/auth";
 import Logo from "../../assets/img/logo/LogoGLEAN.png";
 import ArrowDown from "../../assets/img/icon/arrow_drop_down.png";
 import ArrowBack from "../../assets/img/icon/arrow_back.png";
-import Close from "../../assets/img/icon/add.png";
+import Close from "../../assets/img/icon/close.png";
 import { Link } from "react-router-dom";
 
 export default function Register() {

@@ -1,0 +1,38 @@
+.line-chart-container {
+    padding: 6px 44px 2px 7px;
+    border: 0.3px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.bar-chart-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar-chart-bottom canvas {
+    width: 100% !important;
+    height: 295.94px !important;
+}
+
+.line-chart-bottom canvas {
+    width: 100% !important;
+    height: 194px !important;
+    margin: 7xp 0px 10px 0 !important;
+}
+
+.line-chart-btn_content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+
+.line-chart-btn_content p{
+    width: 40%;
+    cursor: pointer;
+    padding: 3px;
+    background: #d9d9d9;
+    border-radius: 10px;
+    color: #000000;
+}

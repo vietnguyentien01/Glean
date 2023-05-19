@@ -47,7 +47,7 @@
     text-align: center;
 }
 
-.login-success_sub_modal {
+.login-success-sub_modal {
     position: relative;
     padding: 14px 72px;
     border: 1px solid #A3A6AC;
@@ -55,7 +55,7 @@
 ;
 }
 
-.login-success_sub_modal img {
+.login-success-sub_modal img {
     position: absolute;
     top: 5.5%;
     right: 2%;

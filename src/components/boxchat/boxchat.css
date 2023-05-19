@@ -1,0 +1,99 @@
+.boxchat-container {
+    padding: 20px 28px 20px 0;
+}
+
+.boxchat-popup {
+    margin-bottom: 27px;
+}
+
+.boxchat-content_top {
+    display: flex;
+    justify-content: flex-end;
+    gap: 27px;
+    align-items: center;
+    padding: 11px 13.01px;
+    border-bottom: 1px solid #a3a6ac;
+}
+
+.boxchat-aspect {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.boxchat-remove {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 4px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.boxchat-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid #a3a6ac;
+}
+
+.boxchat-content_bottom_respond {
+    height: 95vh;
+}
+
+.boxchat-content_bottom_input {
+    position: relative;
+    display: flex;
+    margin: 10px 48px 11px 48px;
+}
+
+.boxchat-content_bottom_input input {
+    padding: 18.07px 51px;
+    font-size: 20px;
+    color: #535861;
+    background: #d9d9d9;
+    border-radius: 15px;
+    border: 1px solid transparent;
+}
+
+.boxchat-content_bottom_input input:focus {
+    outline: 1px solid transparent;
+}
+
+.boxchat-content_icon {
+    position: absolute;
+    top: 17px;
+    right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxchat-img_name {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    cursor: pointer;
+    height: 142vh;
+}
+
+.boxchat-img_name_content {
+    position: absolute;
+    bottom: 23px;
+    right: 41px;
+    display: flex;
+    align-items: center;
+    width: 58px;
+    height: 58px;
+    justify-content: center;
+    border-radius: 50px;
+    background: #a3a6ac;
+    padding: 16px;
+}
+
+.boxchat-img_name_content h1 {
+    font-weight: 400;
+    font-size: 30px;
+}

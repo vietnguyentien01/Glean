@@ -1,12 +1,11 @@
 import "./loginSuccess.css";
 import Logo from "../../assets/img/logo/LogoGLEAN.png";
 import Swirl from "../../assets/img/icon/swirl.png";
-import Close from "../../assets/img/icon/add.png";
+import Close from "../../assets/img/icon/close.png";
 import { useState } from "react";
 
 export default function LoginSuccess() {
   const [isClose, setIsClose] = useState(true);
-  const [save, setSave] = useState(false);
 
   return (
     <div className="login-success_container">
@@ -25,7 +24,7 @@ export default function LoginSuccess() {
       </div>
       {isClose &&
         <div className="login-success_modal">
-          <div className="login-success_sub_modal">
+          <div className="login-success-sub_modal">
             <img src={Close} alt="" onClick={() => setIsClose(false)} />
             <div className="login-success_modal_content">
               <div className="login-success_modal_title">

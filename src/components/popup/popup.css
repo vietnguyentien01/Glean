@@ -1,0 +1,29 @@
+.popup-container {
+    border: 1px solid #a3a6ac;
+    text-align: center;
+    padding: 14px 7.71px 11px 7.71px;
+}
+
+.popup-content p {
+    margin-bottom: 22px;
+}
+
+.popup-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.popup-btn_cancel,
+.popup-btn_get_code {
+    padding: 7px 27.24px;
+    border: 0.5px solid #a7a7a7;
+    border-radius: 5px;
+    background: #ffffff;
+    color: #615D5D;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.popup-btn_cancel {
+    margin-right: 57.88px;
+}
